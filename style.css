@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@ body {
   font-family: "Lora", serif;
   font-weight: lighter;
   font-size: 17px;
-  background-color:#E6E6E6;
+  background-color: #e6e6e6;
   color: #575f7d;
 }
 
@@ -22,13 +22,15 @@ body {
 .card-white {
   background-color: white;
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Lora", serif;
 }
 
@@ -42,9 +44,9 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
   margin: 20px 0px;
-  transition: 2.0s;
+  transition: 2s;
 }
 
 .avatar:hover {
@@ -80,7 +82,7 @@ a {
 }
 
 h2 {
-  color: #3F5A0C;
+  color: #3f5a0c;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
@@ -108,16 +110,15 @@ h2 {
 }
 
 .list-inline i:hover {
-  color: #3F5A0C;
+  color: #3f5a0c;
   transform: scale(1.2);
 }
 
 #section-1 h2 {
   margin-bottom: 40px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 30px;
   font-weight: 600;
-  margin: 20px 0px;
 }
 
 #section-1 p {
@@ -152,7 +153,6 @@ h2 {
 
 #section-2 h2 {
   margin-bottom: 40px;
-  text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
 }
@@ -162,7 +162,6 @@ h2 {
   line-height: 1.5;
   margin: 20px 0px;
 }
-
 
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
